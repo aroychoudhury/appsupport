@@ -1927,6 +1927,10 @@ span.section {
   border-color: #CCD0D7;
   box-shadow: none !important; }
 
+.form-basic label  {
+    margin-top: 10px;
+    margin-bottom: 2px !important; }
+
 legend {
   font-size: 18px;
   color: inherit; }
@@ -4182,3 +4186,23 @@ ul.notifications {
   border: 1px solid #e5e5e5; }
 
 /** /Dropzone.js **/
+
+/** JSON Editor **/
+prepared {
+ white-space: pre-wrap;       /* css-3 */
+ white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+ white-space: -pre-wrap;      /* Opera 4-6 */
+ white-space: -o-pre-wrap;    /* Opera 7 */
+ word-wrap: break-word;       /* Internet Explorer 5.5+ */ }
+
+.json-editor-basic {
+  height: 400px !important;
+  overflow: scroll; }
+
+.json-editor-edit {
+  height: 270px !important;
+  overflow: scroll; }
+
+textarea {
+  resize: none; }
+/** /JSON Editor **/
